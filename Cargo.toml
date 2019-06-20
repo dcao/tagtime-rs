@@ -1,0 +1,18 @@
+[package]
+name = "tagtime"
+version = "0.1.0"
+authors = ["David Cao <david@cao.st>"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4.6"
+dotenv = "0.14.1"
+rug = "1.4.0"
+
+[lib]
+name = "tagtime"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tagtime"
+path = "src/bin.rs"
